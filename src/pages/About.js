@@ -50,7 +50,7 @@ function About() {
 
             <div className="col-lg-6">
               <div className="member d-flex align-items-start">
-                <div className="pic"><img src="assets/img/team/ali.jpg" className="img-fluid" alt="" /></div>
+                <div className="pic"><img src="assets/img/team/ali-right.png" className="img-fluid" alt="" /></div>
                 <div className="member-info">
                   <h4>Ali Zuhairi</h4>
                   <span>Co-founder / Producer</span>
