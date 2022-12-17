@@ -9,7 +9,7 @@
 # Main
 
 #c69c6d;
-#eedac2;
+#f7ebdb;
 --------------------------------------------------------------*/
 
 
@@ -561,7 +561,7 @@ section {
 
 .section-bg,
 .services .icon-box {
-  background-color: #f8f9fa;
+  background-color: #f7ebdb;
 }
 
 .section-title {
@@ -604,7 +604,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 18px 0;
-  background: #eedac2;
+  background: #f7ebdb;
   min-height: 40px;
   margin-top: 0px;
 }
