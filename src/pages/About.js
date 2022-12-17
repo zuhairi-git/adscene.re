@@ -1,5 +1,6 @@
 
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -12,7 +13,7 @@ function About() {
           <div className="d-flex justify-content-between align-items-center">
             <h2>About</h2>
             <ol>
-              <li><a href="index.html">Home</a></li>
+              <li><Link to="/">Home</Link></li>
               <li>About</li>
             </ol>
           </div>

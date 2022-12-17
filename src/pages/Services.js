@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Services() {
   return (
     <>
@@ -9,7 +11,7 @@ function Services() {
           <div className="d-flex justify-content-between align-items-center">
             <h2>Services</h2>
             <ol>
-              <li><a href="index.html">Home</a></li>
+              <li><Link to="/">Home</Link></li>
               <li>Services</li>
             </ol>
           </div>

@@ -1,6 +1,23 @@
 function Team() {
   return (
     <>
+      {/* Breadcrumbs */}
+      <section id="breadcrumbs" className="breadcrumbs">
+        <div className="container">
+
+          <div className="d-flex justify-content-between align-items-center">
+            <h2>Portolio</h2>
+            <ol>
+              <li><Link to="/">Home</Link></li>
+              <li>Portolio</li>
+            </ol>
+          </div>
+
+        </div>
+      </section>
+      {/* End Breadcrumbs */}
+
+
       {/* Team Section */}
       <section id="team" className="team ">
         <div className="container">

@@ -1,4 +1,6 @@
 import PortfolioContent from "./PortfolioContent";
+import { Link } from "react-router-dom";
+
 function Portfolio() {
   return (
     <>
@@ -10,7 +12,7 @@ function Portfolio() {
           <div className="d-flex justify-content-between align-items-center">
             <h2>Portolio</h2>
             <ol>
-              <li><a href="index.html">Home</a></li>
+              <li><Link to="/">Home</Link></li>
               <li>Portolio</li>
             </ol>
           </div>
