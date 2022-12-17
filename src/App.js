@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import Navbar from "./pages/Navbar";
 import Header from "./pages/Header";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
@@ -9,7 +10,7 @@ import Footer from "./pages/Footer";
 function App() {
   return (
     <>
-      <Header />
+      <Navbar />
       <Routes>
         <Route path="/header" element={<Header />} />
         <Route path="/" element={<Home />} />
