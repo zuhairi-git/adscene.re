@@ -124,7 +124,7 @@ function About() {
               </div>
 
               <div className="progress">
-                <span className="skill">HTML / CSS <i className="val">90%</i></span>
+                <span className="skill">HTML / CSS / React JS UI Development <i className="val">90%</i></span>
                 <ProgressBar striped now={90} label={``} />
               </div>
 
