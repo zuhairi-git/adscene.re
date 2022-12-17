@@ -1,5 +1,6 @@
-import Button from 'react-bootstrap/Button';
+import InputGroup from 'react-bootstrap/InputGroup';
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 function Footer() {
   return (
@@ -43,10 +44,16 @@ function Footer() {
                 <Form.Text className="text-light">
                   Get the latest update and offers
                 </Form.Text>
-                <Form.Control type="email" placeholder="Enter email" />
-                <Form.Text className="text-light">
-                  We'll never share your email with anyone else.
-                </Form.Text>
+                <InputGroup className="mb-3">
+                  <Form.Control
+                    placeholder="Your Email Address"
+                    aria-label="Your Email Address"
+                    aria-describedby="basic-addon2"
+                  />
+                  <Button variant="outline-secondary" id="button-addon2">
+                  Subscribe
+                  </Button>
+                </InputGroup>
               </div>
             </div>
           </div>
