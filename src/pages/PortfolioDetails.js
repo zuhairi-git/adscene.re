@@ -1,7 +1,25 @@
+import { Link } from "react-router-dom";
+
 function Portfolio() {
   return (
     <>
       <main id="main">
+        {/* Breadcrumbs */}
+        <section id="breadcrumbs" className="breadcrumbs">
+          <div className="container">
+
+            <div className="d-flex justify-content-between align-items-center">
+              <h2>Portolio Detials</h2>
+              <ol>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/portfolio">Portfolio</Link></li>
+                <li>Portolio Detials</li>
+              </ol>
+            </div>
+
+          </div>
+        </section>
+        {/* End Breadcrumbs */}
 
         <section id="portfolio-details" className="portfolio-details">
           <div className="container">
@@ -13,15 +31,15 @@ function Portfolio() {
                   <div className="swiper-wrapper align-items-center">
 
                     <div className="swiper-slide">
-                      <img src="assets/img/portfolio-6.jpg" alt="" />
+                      <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="" />
                     </div>
 
                     <div className="swiper-slide">
-                      <img src="assets/img/portfolio-6.jpg" alt="" />
+                      <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="" />
                     </div>
 
                     <div className="swiper-slide">
-                      <img src="assets/img/portfolio-6.jpg" alt="" />
+                      <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="" />
                     </div>
 
                   </div>
