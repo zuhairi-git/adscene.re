@@ -50,7 +50,7 @@ function Footer() {
                     aria-label="Your Email Address"
                     aria-describedby="basic-addon2"
                   />
-                  <Button variant="outline-secondary" id="button-addon2">
+                  <Button variant="btn-subscribe" id="btn-subscribe">
                   Subscribe
                   </Button>
                 </InputGroup>
