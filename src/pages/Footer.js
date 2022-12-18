@@ -19,10 +19,10 @@ function Footer() {
                     <strong>Email:</strong> info@adscene.cc
                   </div>
                   <div className="social-links mt-3">
-                    <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
-                    <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
+                    <a href="https://twitter.com/AliZohairi" className="twitter"><i className="bx bxl-twitter"></i></a>
+                    <a href="https://www.facebook.com/zuhairi.one" className="facebook"><i className="bx bxl-facebook"></i></a>
                     <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-                    <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/ali-zuhairi/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
                   </div>
                 </div>
               </div>
