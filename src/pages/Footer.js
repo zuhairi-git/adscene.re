@@ -13,7 +13,7 @@ function Footer() {
 
               <div className="col-lg-4 col-md-6">
                 <div className="footer-info">
-                  <img src="/assets/img/logo.png" className="border rounded-4 mb-3" alt="Logo" style={{ width: "128px" }} />
+                  <img src="/assets/img/logo.png" className="shadow rounded-2 mb-3" alt="Logo" style={{ width: "128px" }} />
                   <div>
                     <div>Espoo, Suurpelto</div>
                     <strong>Email:</strong> info@adscene.cc
