@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Portfolio() {
   return (
     <>
@@ -27,7 +29,7 @@ function Portfolio() {
                   <p>App</p>
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <Link to="portfolio-details" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></Link>
                   </div>
                 </div>
               </div>
@@ -41,7 +43,7 @@ function Portfolio() {
                   <p>Web</p>
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <Link to="portfolio-details" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></Link>
                   </div>
                 </div>
               </div>
@@ -55,7 +57,7 @@ function Portfolio() {
                   <p>App</p>
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <Link to="portfolio-details" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></Link>
                   </div>
                 </div>
               </div>
@@ -69,7 +71,7 @@ function Portfolio() {
                   <p>Card</p>
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <Link to="portfolio-details" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></Link>
                   </div>
                 </div>
               </div>
@@ -83,7 +85,7 @@ function Portfolio() {
                   <p>Web</p>
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 2"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <Link to="portfolio-details" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></Link>
                   </div>
                 </div>
               </div>
@@ -97,7 +99,7 @@ function Portfolio() {
                   <p>App</p>
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 3"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <Link to="portfolio-details" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></Link>
                   </div>
                 </div>
               </div>
@@ -111,7 +113,7 @@ function Portfolio() {
                   <p>Card</p>
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 1"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <Link to="portfolio-details" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></Link>
                   </div>
                 </div>
               </div>
@@ -125,7 +127,7 @@ function Portfolio() {
                   <p>Card</p>
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 3"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <Link to="portfolio-details" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></Link>
                   </div>
                 </div>
               </div>
@@ -139,7 +141,7 @@ function Portfolio() {
                   <p>Web</p>
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <Link to="portfolio-details" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link"></i></Link>
                   </div>
                 </div>
               </div>
