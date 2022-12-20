@@ -7,11 +7,13 @@ import PortfolioDetails from "./pages/PortfolioDetails";
 import Services from "./pages/Services";
 import About from "./pages/About";
 import Footer from "./pages/Footer";
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/header" element={<Header />} />
         <Route path="/" element={<Home />} />
