@@ -5,7 +5,7 @@ import "../App.css";
 
 function BasicExample() {
   return (
-    <Navbar className='p-3' bg="light" expand="lg">
+    <Navbar sticky="top" className='p-3' bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="/">AD Scene</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
