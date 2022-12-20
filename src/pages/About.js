@@ -29,7 +29,7 @@ function About() {
           <div className="row content d-flex justify-content-center">
             <div className="col-lg-8">
               <h2>What we do?</h2>
-              <h3>In AD Scene we want to bring your ideas or products to life by visualizing and advertising them. If you have an idea about tangible or digital products, we can start defining your ideas and put them into the process to be advertised.</h3>
+              <h3>In AD SCENE we want to bring your ideas or products to life by visualizing and advertising them. If you have an idea about tangible or digital products, we can start defining your ideas and put them into the process to be advertised.</h3>
             </div>
           </div>
 

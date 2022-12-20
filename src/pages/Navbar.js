@@ -7,7 +7,7 @@ function BasicExample() {
   return (
     <Navbar sticky="top" className='p-3' bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="/">AD Scene</Navbar.Brand>
+        <Navbar.Brand href="/">AD SCENE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

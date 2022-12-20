@@ -61,7 +61,7 @@ function Footer() {
 
         <div className="container">
           <div className="copyright">
-            <strong><span>AD Scene</span></strong><br />Made with React JS
+            <strong><span>AD SCENE</span></strong><br />Made with React JS
           </div>
         </div>
       </footer>

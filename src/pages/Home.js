@@ -15,8 +15,8 @@ function Home() {
               <div className="carousel-container">
                 <div className="container">
                   <img src="/assets/img/logo-white.svg" alt="Logo" width={256}/>
-                  <h2 className="animate__animated animate__fadeInDown">Welcome to <span>Ad Scene</span></h2>
-                  <p className="animate__animated animate__fadeInUp">In AD Scene we want to bring your ideas or products to life by visualizing and advertising them.
+                  <h2 className="animate__animated animate__fadeInDown">Welcome to <span className="bold">AD SCENE</span></h2>
+                  <p className="animate__animated animate__fadeInUp">In AD SCENE we want to bring your ideas or products to life by visualizing and advertising them.
                     If you have an idea about tangible or digital products, we can start defining your ideas and put them into the process to be advertised.</p>
                   <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div>
