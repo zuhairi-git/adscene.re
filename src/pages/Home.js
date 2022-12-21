@@ -42,22 +42,19 @@ function Home() {
         <div className="container">
 
           <div className="row content">
-            <div className="col-lg-6">
-              <h2>The Big Picture</h2>
-              <h3>The idea is to demonstrate your products in a simple and visual ways for the end users. Nothing work better than visualizing what you want to offer.</h3>
+            <div className="col-lg-12">
+              <h2 className="text-center">The Big Picture</h2>
+              <h3>Demonstrating a product effectively can help to showcase its features and benefits to potential customers and help to convince them to make a purchase.</h3>
             </div>
-            <div className="col-lg-6 pt-4 pt-lg-0">
+            <div className="col-lg-12 pt-4 pt-lg-0">
               <p>Having a product will help you to understand what kind of problem you want to solve and get you focused, and it is easier to specify the product on a higher level and direct them to the right market.
                 As a consumer, a product is easier to understand, recognized, and remembered.
               </p>
-              <ul>
-                <li><i className="ri-check-double-line"></i> The first step is what kind of problem you want to solve or the challenge.</li>
-                <li><i className="ri-check-double-line"></i> Second, how are you going to solve it? Or the solution.</li>
-                <li><i className="ri-check-double-line"></i> Last, is the result. How your solution resolved the customer challenge.</li>
-              </ul>
-              <p className="fst-italic">
-                These are not easy to explain if you have a complex platform, and that's when having a product makes it easier to demonstrate your solution.
-              </p>
+              <ol className="ol-class row">
+                <li className="li-class col-lg-4">Define your idea or product: Start by clearly defining what your idea or product is and what it does. Consider who your target audience is and how your product or idea will solve a problem or meet a need for them.</li>
+                <li className="li-class col-lg-4">Research and validate your idea: Conduct market research to understand the demand for your product or idea and to identify any potential competitors. You may also want to test your idea or product with a small group of people to get feedback and refine your concept.</li>
+                <li className="li-class col-lg-4">Create a plan: Develop a detailed plan that outlines the steps you will take to bring your idea or product to life. This may include designing and prototyping your product, identifying suppliers, and setting timelines for each step.</li>
+              </ol>
             </div>
           </div>
 
@@ -110,6 +107,30 @@ function Home() {
         </div>
       </section>
       {/* End Services Section */}
+
+      {/* About Section */}
+      <section id="product" className="about">
+        <div className="container">
+
+          <div className="row content">
+            <div className="col-lg-12">
+              <h2 className="text-center">The Benifits of Having a Product</h2>
+            </div>
+            <div className="col-lg-12 pt-4 pt-lg-0">
+              <ol className="ol-class row">
+                <li className="li-class col-lg-4">Increased revenue: A product can generate income for a business through sales to customers.</li>
+                <li className="li-class col-lg-4">Increased brand awareness: A product can help to raise awareness of a brand and increase its visibility in the market.</li>
+                <li className="li-class col-lg-4">Customer loyalty: A well-designed and high-quality product can help to build customer loyalty and encourage repeat purchases.</li>
+                <li className="li-class col-lg-4">Increased market share: A successful product can help a business to capture a larger share of the market and gain a competitive advantage.</li>
+                <li className="li-class col-lg-4">Customer feedback: A product can provide valuable feedback from customers, which can help a business to understand its customers' needs and preferences and improve its products and services.</li>
+                <li className="li-class col-lg-4">Opportunities for innovation: A product can provide opportunities for a business to innovate and stay ahead of the competition.</li>
+              </ol>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      {/* End About Section */}
 
     </>
   );
