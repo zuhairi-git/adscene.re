@@ -54,7 +54,7 @@ function About() {
                 <div className="member-info">
                   <h4>Ali Zuhairi</h4>
                   <span>Co-founder / Producer</span>
-                  <p>Explicabo voluptatem mollitia et repellat</p>
+                  <p>Establish and manage the company to creates advertising campaigns</p>
                   <div className="social">
                     <a href=""><i className="ri-twitter-fill"></i></a>
                     <a href=""><i className="ri-facebook-fill"></i></a>
@@ -71,7 +71,6 @@ function About() {
                 <div className="member-info">
                   <h4>Hayder Rasheed</h4>
                   <span>Co-founder / Professional Barber and Photograhper</span>
-                  <p>Aut maiores voluptates amet et quis</p>
                   <div className="social">
                     <a href=""><i className="ri-twitter-fill"></i></a>
                     <a href=""><i className="ri-facebook-fill"></i></a>
@@ -82,7 +81,7 @@ function About() {
               </div>
             </div>
 
-            <div className="col-lg-6 mt-4">
+            <div className="d-none col-lg-6 mt-4">
               <div className="member d-flex align-items-start">
                 <div className="pic"><img src="assets/img/team/ahmed.png" className="img-fluid" alt="" /></div>
                 <div className="member-info">
