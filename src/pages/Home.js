@@ -16,8 +16,8 @@ function Home() {
                 <div className="container">
                   <img src="/assets/img/logo-white.svg" alt="Logo" width={256}/>
                   <h2 className="animate__animated animate__fadeInDown">Welcome to <span className="bold">AD SCENE</span></h2>
-                  <p className="animate__animated animate__fadeInUp">In AD SCENE we want to bring your ideas or products to life by visualizing and advertising them.
-                    If you have an idea about tangible or digital products, we can start defining your ideas and put them into the process to be advertised.</p>
+                  <p className="animate__animated animate__fadeInUp">We can help a business to understand what kind of problem it wants to solve. 
+                  Your business can gain insight into the needs and challenges faced by its customers and identify specific problems that the product can solve.</p>
                   <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div>
               </div>
@@ -47,9 +47,6 @@ function Home() {
               <h3>Demonstrating a product effectively can help to showcase its features and benefits to potential customers and help to convince them to make a purchase.</h3>
             </div>
             <div className="col-lg-12 pt-4 pt-lg-0">
-              <p>Having a product will help you to understand what kind of problem you want to solve and get you focused, and it is easier to specify the product on a higher level and direct them to the right market.
-                As a consumer, a product is easier to understand, recognized, and remembered.
-              </p>
               <ol className="ol-class row">
                 <li className="li-class col-lg-4">Define your idea or product: Start by clearly defining what your idea or product is and what it does. Consider who your target audience is and how your product or idea will solve a problem or meet a need for them.</li>
                 <li className="li-class col-lg-4">Research and validate your idea: Conduct market research to understand the demand for your product or idea and to identify any potential competitors. You may also want to test your idea or product with a small group of people to get feedback and refine your concept.</li>
