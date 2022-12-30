@@ -14,7 +14,7 @@ function Home() {
             <div className="carousel-item active">
               <div className="carousel-container">
                 <div className="container">
-                  <img src="/assets/img/logo-white.svg" alt="Logo" width={256}/>
+                  <img src="/assets/img/adscene-logo.png" alt="Logo" width={256}/>
                   <h2 className="animate__animated animate__fadeInDown">Welcome to <span className="bold">AD SCENE</span></h2>
                   <p className="animate__animated animate__fadeInUp">We can help a business to understand what kind of problem it wants to solve. 
                   Your business can gain insight into the needs and challenges faced by its customers and identify specific problems that the product can solve.</p>

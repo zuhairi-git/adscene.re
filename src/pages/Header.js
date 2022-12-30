@@ -6,7 +6,7 @@ const Header = () => {
       <header id="header" className="fixed-top d-flex align-items-center">
         <div className="container d-flex align-items-center">
 
-          <a href="index.html" className="logo me-auto"><img src="assets/img/logo.png" alt="" className="img-fluid" /></a>
+          <a href="index.html" className="logo me-auto"><img src="assets/img/adscene-logo.png" alt="" className="img-fluid" /></a>
 
           <nav id="navbar" className="navbar">
             <ul>
