@@ -36,7 +36,6 @@
   color: #fff;
 }
 
-
 .main-header {
   font-weight: 700;
   font-size: 48px;
@@ -44,6 +43,24 @@
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+
+/* Example Fonts */
+.primary-title {
+	font-family: "Raleway", "PT Sans", sans-serif;
+}
+
+.secondary-title {
+	font-family: "Sacramento", "PT Sans", sans-serif;
+	text-transform: capitalize !important;
+	font-size: larger;
+}
+
+.tertiary-title {
+	font-family: "Sofia", "PT Sans", sans-serif;
+}
+
+/* End Font Styles */
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
