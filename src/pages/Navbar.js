@@ -7,7 +7,7 @@ function BasicExample() {
   return (
     <Navbar sticky="top" className='p-3' bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="/">AD SCENE</Navbar.Brand>
+        <Navbar.Brand href="/"><img src='./assets/img/adscene-favicon.png' style={{width:'32px'}} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

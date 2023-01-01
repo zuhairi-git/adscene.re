@@ -18,10 +18,12 @@
 }
 
 
-.image-responsive {
-  width: 100%;
-  border-radius: 40px;
-  margin-bottom: 5px;
+.main-header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 /*--------------------------------------------------------------
 # General
@@ -550,7 +552,7 @@ section {
 
 .section-bg,
 .services .icon-box {
-  background-color: #ededf4;
+  background-color: #c8e7ea;
 }
 
 .section-title {
@@ -793,6 +795,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(85, 98, 112, 0.6);
+  border-radius: 50px;
 }
 
 .portfolio .portfolio-wrap::before {

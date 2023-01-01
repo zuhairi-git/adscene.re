@@ -44,7 +44,7 @@ function Home() {
 
           <div className="row content">
             <div className="col-lg-12">
-              <h2 className="text-center">The Big Picture</h2>
+              <h2 className="text-center main-header">The Big Picture</h2>
               <h3>Demonstrating a product effectively can help to showcase its features and benefits to potential customers and help to convince them to make a purchase.</h3>
             </div>
             <div className="col-lg-12 pt-4 pt-lg-0">
@@ -63,7 +63,7 @@ function Home() {
       {/* Services Section */}
       <section id="services" className="services">
         <div className="container">
-
+          <h2 className="text-center main-header">We do</h2>
           <div className="row">
             <div className="col-md-6">
               <div className="icon-box">
@@ -110,7 +110,7 @@ function Home() {
       <section id="product-benefits" className="portfolio">
         <div className="container">
           <div className="col-lg-12">
-            <h2 className="text-center">The Benifits of Having a Product</h2>
+            <h2 className="text-center main-header">The Benifits of Having a Product</h2>
           </div>
 
           <div className="ol-class row portfolio-container">
@@ -175,8 +175,9 @@ function Home() {
               <li className="li-class">Opportunities for innovation: A product can provide opportunities for a business to innovate and stay ahead of the competition.</li>
             </div>
 
-          </div></div></section>
-      Product Benefits
+          </div>
+        </div>
+      </section>
 
     </>
   );
