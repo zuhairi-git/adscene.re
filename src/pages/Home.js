@@ -14,10 +14,10 @@ function Home() {
             <div className="carousel-item active">
               <div className="carousel-container">
                 <div className="container">
-                  <img src="/assets/img/adscene-color.png" alt="Logo" style={{width:'256px', marginBottom: '20px'}}/>
+                  <img src="/assets/img/adscene-color.png" alt="Logo" style={{ width: '256px', marginBottom: '20px' }} />
                   <h2 className="animate__animated animate__fadeInDown">Welcome to <span className="bold">AD SCENE</span></h2>
-                  <p className="animate__animated animate__fadeInUp">We can help a business to understand what kind of problem it wants to solve. 
-                  Your business can gain insight into the needs and challenges faced by its customers and identify specific problems that the product can solve.</p>
+                  <p className="animate__animated animate__fadeInUp">We can help a business to understand what kind of problem it wants to solve.
+                    Your business can gain insight into the needs and challenges faced by its customers and identify specific problems that the product can solve.</p>
                   <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div>
               </div>
@@ -115,12 +115,30 @@ function Home() {
             </div>
             <div className="col-lg-12 pt-4 pt-lg-0">
               <ol className="ol-class row">
-                <li className="li-class col-lg-4">Increased revenue: A product can generate income for a business through sales to customers.</li>
-                <li className="li-class col-lg-4">Increased brand awareness: A product can help to raise awareness of a brand and increase its visibility in the market.</li>
-                <li className="li-class col-lg-4">Customer loyalty: A well-designed and high-quality product can help to build customer loyalty and encourage repeat purchases.</li>
-                <li className="li-class col-lg-4">Increased market share: A successful product can help a business to capture a larger share of the market and gain a competitive advantage.</li>
-                <li className="li-class col-lg-4">Customer feedback: A product can provide valuable feedback from customers, which can help a business to understand its customers' needs and preferences and improve its products and services.</li>
-                <li className="li-class col-lg-4">Opportunities for innovation: A product can provide opportunities for a business to innovate and stay ahead of the competition.</li>
+                <div className="col-lg-4 p-3">
+                  <img className="image-responsive" src="assets/img/product-benefits/revenue.jpg" alt="Revenue" />
+                  <li className="li-class">Increased revenue: A product can generate income for a business through sales to customers.</li>
+                </div>
+                <div className="col-lg-4 p-3">
+                  <img className="image-responsive" src="assets/img/product-benefits/brand-awereness.jpg" alt="Revenue" />
+                  <li className="li-class">Increased brand awareness: A product can help to raise awareness of a brand and increase its visibility in the market.</li>
+                </div>
+                <div className="col-lg-4 p-3">
+                  <img className="image-responsive" src="assets/img/product-benefits/customer-loyalty.jpg" alt="Revenue" />
+                  <li className="li-class">Customer loyalty: A well-designed and high-quality product can help to build customer loyalty and encourage repeat purchases.</li>
+                </div>
+                <div className="col-lg-4 p-3">
+                  <img className="image-responsive" src="assets/img/product-benefits/market-share.jpg" alt="Revenue" />
+                  <li className="li-class">Increased market share: A successful product can help a business to capture a larger share of the market and gain a competitive advantage.</li>
+                </div>
+                <div className="col-lg-4 p-3">
+                  <img className="image-responsive" src="assets/img/product-benefits/feedback.jpg" alt="Revenue" />
+                  <li className="li-class">Customer feedback: A product can provide valuable feedback from customers, which can help a business to understand its customers' needs and preferences and improve its products and services.</li>
+                </div>
+                <div className="col-lg-4 p-3">
+                  <img className="image-responsive" src="assets/img/product-benefits/innovation.jpg" alt="Revenue" />
+                  <li className="li-class">Opportunities for innovation: A product can provide opportunities for a business to innovate and stay ahead of the competition.</li>
+                </div>
               </ol>
             </div>
           </div>
