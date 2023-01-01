@@ -45,13 +45,13 @@ function Home() {
           <div className="row content">
             <div className="col-lg-12">
               <h2 className="text-center main-header">The Big Picture</h2>
-              <h3>Demonstrating a product effectively can help to showcase its features and benefits to potential customers and help to convince them to make a purchase.</h3>
+              <h3 className="text-center p-3">Demonstrating a product effectively can help to showcase its features and benefits to potential customers and help to convince them to make a purchase.</h3>
             </div>
             <div className="col-lg-12 pt-4 pt-lg-0">
               <ol className="ol-class row">
-                <li className="li-class col-lg-4">Define your idea or product: Start by clearly defining what your idea or product is and what it does. Consider who your target audience is and how your product or idea will solve a problem or meet a need for them.</li>
-                <li className="li-class col-lg-4">Research and validate your idea: Conduct market research to understand the demand for your product or idea and to identify any potential competitors. You may also want to test your idea or product with a small group of people to get feedback and refine your concept.</li>
-                <li className="li-class col-lg-4">Create a plan: Develop a detailed plan that outlines the steps you will take to bring your idea or product to life. This may include designing and prototyping your product, identifying suppliers, and setting timelines for each step.</li>
+                <li className="li-class pt-3 pb-4 pe-5 ps-5 col-lg-4">Define your idea or product: Start by clearly defining what your idea or product is and what it does. Consider who your target audience is and how your product or idea will solve a problem or meet a need for them.</li>
+                <li className="li-class pt-3 pb-4 pe-5 ps-5 col-lg-4">Research and validate your idea: Conduct market research to understand the demand for your product or idea and to identify any potential competitors. You may also want to test your idea or product with a small group of people to get feedback and refine your concept.</li>
+                <li className="li-class pt-3 pb-4 pe-5 ps-5 col-lg-4">Create a plan: Develop a detailed plan that outlines the steps you will take to bring your idea or product to life. This may include designing and prototyping your product, identifying suppliers, and setting timelines for each step.</li>
               </ol>
             </div>
           </div>
@@ -109,7 +109,7 @@ function Home() {
       {/* Product Benefits */}
       <section id="product-benefits" className="portfolio">
         <div className="container">
-          <div className="col-lg-12">
+          <div className="col-lg-12 mb-5">
             <h2 className="text-center main-header">The Benifits of Having a Product</h2>
           </div>
 
@@ -122,7 +122,7 @@ function Home() {
                   <h4>Revenue</h4>
                 </div>
               </div>
-              <li className="li-class">Increased revenue: A product can generate income for a business through sales to customers. It is possible through licensing or offering subscriptions.</li>
+              <li className="li-class pt-3 pb-4 pe-5 ps-5 pt-3 pb-4 pe-5 ps-5">Increased revenue: A product can generate income for a business through sales to customers. It is possible through licensing or offering subscriptions.</li>
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -132,7 +132,7 @@ function Home() {
                   <h4>Brand awareness</h4>
                 </div>
               </div>
-              <li className="li-class">Increased brand awareness: A product can help to raise awareness of a brand and increase its visibility in the market.</li>
+              <li className="li-class pt-3 pb-4 pe-5 ps-5">Increased brand awareness: A product can help to raise awareness of a brand and increase its visibility in the market.</li>
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -142,7 +142,7 @@ function Home() {
                   <h4>Customer loyalty</h4>
                 </div>
               </div>
-              <li className="li-class">Customer loyalty: A well-designed and high-quality product can help to build customer loyalty and encourage repeat purchases.</li>
+              <li className="li-class pt-3 pb-4 pe-5 ps-5">Customer loyalty: A well-designed and high-quality product can help to build customer loyalty and encourage repeat purchases.</li>
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -152,7 +152,7 @@ function Home() {
                   <h4>Market share</h4>
                 </div>
               </div>
-              <li className="li-class">Increased market share: A successful product can help a business to capture a larger share of the market and gain a competitive advantage.</li>
+              <li className="li-class pt-3 pb-4 pe-5 ps-5">Increased market share: A successful product can help a business to capture a larger share of the market and gain a competitive advantage.</li>
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -162,7 +162,7 @@ function Home() {
                   <h4>Customer feedback</h4>
                 </div>
               </div>
-              <li className="li-class">Customer feedback: A product can provide valuable feedback from customers, which can help a business to understand its customers' needs and preferences and improve its products and services.</li>
+              <li className="li-class pt-3 pb-4 pe-5 ps-5">Customer feedback: A product can provide valuable feedback from customers, which can help a business to understand its customers' needs and preferences and improve its products and services.</li>
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -172,7 +172,7 @@ function Home() {
                   <h4>Innovation</h4>
                 </div>
               </div>
-              <li className="li-class">Opportunities for innovation: A product can provide opportunities for a business to innovate and stay ahead of the competition.</li>
+              <li className="li-class pt-3 pb-4 pe-5 ps-5">Opportunities for innovation: A product can provide opportunities for a business to innovate and stay ahead of the competition.</li>
             </div>
 
           </div>
