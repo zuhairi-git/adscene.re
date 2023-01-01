@@ -12,6 +12,18 @@
 #ededf4;
 --------------------------------------------------------------*/
 
+.brand-color-bg {
+  background: #1EB6C3;
+}
+
+.brand-lightcolor-bg {
+  background: #c8e7ea;
+}
+
+.brand-darkcolor-bg {
+  background: #0f5b62;
+}
+
 #btn-subscribe {
   background: #0f5b62;
   color: #fff;

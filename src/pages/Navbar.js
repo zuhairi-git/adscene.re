@@ -5,7 +5,7 @@ import "../App.css";
 
 function BasicExample() {
   return (
-    <Navbar sticky="top" className='p-3' bg="light" expand="lg">
+    <Navbar sticky="top" className='p-3 brand-lightcolor-bg' expand="lg">
       <Container>
         <Navbar.Brand href="/"><img src='./assets/img/adscene-favicon.png' style={{width:'32px'}} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
