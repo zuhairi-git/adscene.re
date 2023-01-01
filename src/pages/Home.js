@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
@@ -105,47 +106,77 @@ function Home() {
       </section>
       {/* End Services Section */}
 
-      {/* About Section */}
-      <section id="product" className="about">
+      {/* Product Benefits */}
+      <section id="product-benefits" className="portfolio">
         <div className="container">
-
-          <div className="row content">
-            <div className="col-lg-12">
-              <h2 className="text-center">The Benifits of Having a Product</h2>
-            </div>
-            <div className="col-lg-12 pt-4 pt-lg-0">
-              <ol className="ol-class row">
-                <div className="col-lg-4 p-3">
-                  <img className="image-responsive" src="assets/img/product-benefits/revenue.jpg" alt="Revenue" />
-                  <li className="li-class">Increased revenue: A product can generate income for a business through sales to customers.</li>
-                </div>
-                <div className="col-lg-4 p-3">
-                  <img className="image-responsive" src="assets/img/product-benefits/brand-awereness.jpg" alt="Revenue" />
-                  <li className="li-class">Increased brand awareness: A product can help to raise awareness of a brand and increase its visibility in the market.</li>
-                </div>
-                <div className="col-lg-4 p-3">
-                  <img className="image-responsive" src="assets/img/product-benefits/customer-loyalty.jpg" alt="Revenue" />
-                  <li className="li-class">Customer loyalty: A well-designed and high-quality product can help to build customer loyalty and encourage repeat purchases.</li>
-                </div>
-                <div className="col-lg-4 p-3">
-                  <img className="image-responsive" src="assets/img/product-benefits/market-share.jpg" alt="Revenue" />
-                  <li className="li-class">Increased market share: A successful product can help a business to capture a larger share of the market and gain a competitive advantage.</li>
-                </div>
-                <div className="col-lg-4 p-3">
-                  <img className="image-responsive" src="assets/img/product-benefits/feedback.jpg" alt="Revenue" />
-                  <li className="li-class">Customer feedback: A product can provide valuable feedback from customers, which can help a business to understand its customers' needs and preferences and improve its products and services.</li>
-                </div>
-                <div className="col-lg-4 p-3">
-                  <img className="image-responsive" src="assets/img/product-benefits/innovation.jpg" alt="Revenue" />
-                  <li className="li-class">Opportunities for innovation: A product can provide opportunities for a business to innovate and stay ahead of the competition.</li>
-                </div>
-              </ol>
-            </div>
+          <div className="col-lg-12">
+            <h2 className="text-center">The Benifits of Having a Product</h2>
           </div>
 
-        </div>
-      </section>
-      {/* End About Section */}
+          <div className="ol-class row portfolio-container">
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div className="portfolio-wrap">
+                <img src="assets/img/product-benefits/revenue.jpg" className="img-fluid" alt="" />
+                <div className="portfolio-info">
+                  <h4>Revenue</h4>
+                </div>
+              </div>
+              <li className="li-class">Increased revenue: A product can generate income for a business through sales to customers. It is possible through licensing or offering subscriptions.</li>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div className="portfolio-wrap">
+                <img src="assets/img/product-benefits/brand-awereness.jpg" className="img-fluid" alt="" />
+                <div className="portfolio-info">
+                  <h4>Brand awareness</h4>
+                </div>
+              </div>
+              <li className="li-class">Increased brand awareness: A product can help to raise awareness of a brand and increase its visibility in the market.</li>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div className="portfolio-wrap">
+                <img src="assets/img/product-benefits/customer-loyalty.jpg" className="img-fluid" alt="" />
+                <div className="portfolio-info">
+                  <h4>Customer loyalty</h4>
+                </div>
+              </div>
+              <li className="li-class">Customer loyalty: A well-designed and high-quality product can help to build customer loyalty and encourage repeat purchases.</li>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div className="portfolio-wrap">
+                <img src="assets/img/product-benefits/market-share.jpg" className="img-fluid" alt="" />
+                <div className="portfolio-info">
+                  <h4>Market share</h4>
+                </div>
+              </div>
+              <li className="li-class">Increased market share: A successful product can help a business to capture a larger share of the market and gain a competitive advantage.</li>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div className="portfolio-wrap">
+                <img src="assets/img/product-benefits/feedback.jpg" className="img-fluid" alt="" />
+                <div className="portfolio-info">
+                  <h4>Customer feedback</h4>
+                </div>
+              </div>
+              <li className="li-class">Customer feedback: A product can provide valuable feedback from customers, which can help a business to understand its customers' needs and preferences and improve its products and services.</li>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div className="portfolio-wrap">
+                <img src="assets/img/product-benefits/innovation.jpg" className="img-fluid" alt="" />
+                <div className="portfolio-info">
+                  <h4>Innovation</h4>
+                </div>
+              </div>
+              <li className="li-class">Opportunities for innovation: A product can provide opportunities for a business to innovate and stay ahead of the competition.</li>
+            </div>
+
+          </div></div></section>
+      Product Benefits
 
     </>
   );
