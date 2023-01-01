@@ -97,7 +97,7 @@ function Home() {
               <div className="icon-box">
                 <i className="fa-solid fa-wand-sparkles"></i>
                 <h4><a href="#">Genie</a></h4>
-                <p>Your wish is my command</p>
+                <p>Your wish is my command. A sincere desire to assist and being helpful you.</p>
               </div>
             </div>
           </div>

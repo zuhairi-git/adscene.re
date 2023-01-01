@@ -807,7 +807,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(85, 98, 112, 0.6);
-  border-radius: 50px;
+  border-radius: 300px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -839,8 +839,8 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-start;
   padding: 20px;
+  text-align: center;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
