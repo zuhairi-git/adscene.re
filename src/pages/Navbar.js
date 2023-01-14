@@ -5,19 +5,22 @@ import "../App.css";
 
 function BasicExample() {
   return (
-    <Navbar sticky="top" className='p-3 brand-light-color-bg' expand="lg">
+    <Navbar sticky="top" className='brand-light-color-bg' expand="lg">
       <Container>
-        <Navbar.Brand href="/"><img src='./assets/img/adscene-logo.png' style={{width:'32px'}} /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="/services">Services</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="#footer">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+        <Navbar.Brand href="/"><img src='./assets/img/adscene-logo.png' style={{ width: '50px' }} /></Navbar.Brand>
+        <div>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+              <Nav.Link href="/services">Services</Nav.Link>
+              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="#footer">Contact</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </div>
+
       </Container>
     </Navbar>
   );
