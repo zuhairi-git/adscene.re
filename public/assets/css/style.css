@@ -98,22 +98,28 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1EB6C3;
+  background: #c8e7ea;
   width: 40px;
   height: 40px;
   border-radius: 4px;
   transition: all 0.4s;
+  border: 1px solid #c8e7ea;
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #1EB6C3;
   line-height: 0;
 }
 
+.back-to-top i:hover {
+  color: #c8e7ea;
+}
+
 .back-to-top:hover {
-  background: #e1444d;
+  background: #1EB6C3;
   color: #fff;
+  border: 1px solid #fff;
 }
 
 .back-to-top.active {
