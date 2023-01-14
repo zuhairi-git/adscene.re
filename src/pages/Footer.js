@@ -13,7 +13,7 @@ function Footer() {
 
               <div className="col-lg-4 col-md-6">
                 <div className="footer-info">
-                  <img src="/assets/img/adscene-logo.png" className="mb-3" alt="Logo" style={{ width: "128px" }} />
+                  <img src="/assets/img/adscene-white.png" className="mb-3" alt="Logo" style={{ width: "128px" }} />
                   <div>
                     <div>Espoo, Suurpelto</div>
                     <strong>Email:</strong> info@adscene.cc
@@ -58,8 +58,8 @@ function Footer() {
             </div>
           </div>
         </div>
-
         <div className="container">
+        <hr />
           <div className="copyright">
             <strong><span>AD SCENE</span></strong><br />Made with React JS
           </div>

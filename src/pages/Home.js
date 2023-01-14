@@ -15,7 +15,7 @@ function Home() {
             <div className="carousel-item active">
               <div className="carousel-container">
                 <div className="container">
-                  <img src="/assets/img/adscene-color.png" alt="Logo" style={{ width: '256px', marginBottom: '20px' }} />
+                  <img src="/assets/img/adscene-white.png" alt="Logo" style={{ width: '256px', marginBottom: '20px' }} />
                   <h2 className="animate__animated animate__fadeInDown">Welcome to <span className="bold">AD SCENE</span></h2>
                   <p className="animate__animated animate__fadeInUp">We can help a business to understand what kind of problem it wants to solve.
                     Your business can gain insight into the needs and challenges faced by its customers and identify specific problems that the product can solve.</p>
