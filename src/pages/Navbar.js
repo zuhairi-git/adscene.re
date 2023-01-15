@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "../App.css";
 
-function BasicExample() {
+function NavbarResponsive() {
   return (
     <Navbar sticky="top" className='brand-light-color-bg' expand="lg">
       <Container>
@@ -24,4 +24,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default NavbarResponsive;
