@@ -25,9 +25,11 @@ function About() {
       {/* About Section */}
       <section id="about" className="about">
         <div className="container">
-
           <div className="row content d-flex justify-content-center">
-            <div className="col-lg-8">
+            <div className='col-lg-auto'>
+              <img src="/assets/img/adscene-logo.png" alt="Logo" style={{ width: '210px' }} />
+            </div>
+            <div className="col-lg">
               <h2>What we do?</h2>
               <h3>In AD SCENE we want to bring your ideas or products to life by visualizing and advertising them. If you have an idea about tangible or digital products, we can start defining your ideas and put them into the process to be advertised.</h3>
             </div>
@@ -53,7 +55,7 @@ function About() {
                 <div className="pic"><img src="assets/img/team/ali-right.png" className="img-fluid" alt="" /></div>
                 <div className="member-info">
                   <h4>Ali Zuhairi</h4>
-                  <span>Co-founder / Producer</span>
+                  <span>Founder / Producer</span>
                   <p>Establish and manage the company to creates advertising campaigns</p>
                   <div className="social">
                     <a href=""><i className="ri-twitter-fill"></i></a>
@@ -66,7 +68,7 @@ function About() {
             </div>
 
             <div className="col-lg-6 mt-4 mt-lg-0">
-              <div className="member d-flex align-items-start">
+              <div className="d-none member d-flex align-items-start">
                 <div className="pic"><img src="assets/img/team/hayder.png" className="img-fluid" alt="" /></div>
                 <div className="member-info">
                   <h4>Hayder Rasheed</h4>
