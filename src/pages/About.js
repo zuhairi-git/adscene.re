@@ -31,7 +31,7 @@ function About() {
             </div>
             <div className="col-lg">
               <h2>What we do?</h2>
-              <h3>At AD SCENE, our goal is to transform your ideas or products into captivating visuals and effective advertisements. Whether you have a concept for tangible or digital products, we specialize in bringing your visions to life. From defining your ideas to executing the advertising process, we are here to help you showcase your offerings to the world.</h3>
+              <h3>In AD SCENE we want to bring your ideas or products to life by visualizing and advertising them. If you have an idea about tangible or digital products, we can start defining your ideas and put them into the process to be advertised.</h3>
             </div>
           </div>
 
