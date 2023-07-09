@@ -1,24 +1,17 @@
-import { Link } from "react-router-dom";
+import Breadcrumbs from "../dynamic/BreadCrumbs";
 
-function Portfolio() {
+function PortfolioDetails() {
+  const breadcrumbs = [
+    { label: "Home", path: "/" },
+    { label: "Portfolio", path: "/portfolio" },
+    { label: "Portfolio Details", path: "/portfolio/details" },
+  ];
+
   return (
     <>
       <main id="main">
         {/* Breadcrumbs */}
-        <section id="breadcrumbs" className="breadcrumbs">
-          <div className="container">
-
-            <div className="d-flex justify-content-between align-items-center">
-              <h2>Portolio Detials</h2>
-              <ol>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/portfolio">Portfolio</Link></li>
-                <li>Portolio Detials</li>
-              </ol>
-            </div>
-
-          </div>
-        </section>
+          <Breadcrumbs breadcrumbs={breadcrumbs} />
         {/* End Breadcrumbs */}
 
         <section id="portfolio-details" className="portfolio-details">
@@ -76,4 +69,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default PortfolioDetails;

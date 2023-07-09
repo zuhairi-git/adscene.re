@@ -1,30 +1,29 @@
+
+import React, { useState } from "react";
+import Breadcrumbs from "../dynamic/BreadCrumbs";
 import PortfolioContent from "./PortfolioContent";
-import { Link } from "react-router-dom";
 
 function Portfolio() {
+  const [breadcrumbs, setBreadcrumbs] = useState([
+    { label: "Home", path: "/" },
+    { label: "Portfolio", path: "" },
+  ]);
+
+  const updateBreadcrumbs = (updatedBreadcrumbs) => {
+    setBreadcrumbs(updatedBreadcrumbs);
+  };
+
   return (
     <>
-
       {/* Breadcrumbs */}
-      <section id="breadcrumbs" className="breadcrumbs">
-        <div className="container">
-
-          <div className="d-flex justify-content-between align-items-center">
-            <h2>Portolio</h2>
-            <ol>
-              <li><Link to="/">Home</Link></li>
-              <li>Portolio</li>
-            </ol>
-          </div>
-
-        </div>
-      </section>
+      <Breadcrumbs breadcrumbs={breadcrumbs} />
       {/* End Breadcrumbs */}
-
-      <PortfolioContent />
+      <PortfolioContent updateBreadcrumbs={updateBreadcrumbs} />
 
     </>
+
   );
 }
 
 export default Portfolio;
+

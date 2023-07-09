@@ -1,8 +1,23 @@
+import { useState } from 'react';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 function Footer() {
+  const [email, setEmail] = useState('');
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubscribe = () => {
+    if (email) {
+      // Perform subscribe action or API call here
+      console.log(`Subscribing with email: ${email}`);
+      setEmail('');
+    }
+  };
+
   return (
     <>
       {/* Footer */}
@@ -38,7 +53,7 @@ function Footer() {
                 </ul>
               </div>
 
-              <div className="d-none col-lg-4 col-md-6 footer-newsletter">
+              <div className="col-lg-4 col-md-6 footer-newsletter">
                 <h4>Our Newsletter</h4>
 
                 <Form.Text className="text-light">
@@ -46,12 +61,15 @@ function Footer() {
                 </Form.Text>
                 <InputGroup className="mb-3">
                   <Form.Control
+                    type="email"
                     placeholder="Your Email Address"
                     aria-label="Your Email Address"
                     aria-describedby="basic-addon2"
+                    value={email}
+                    onChange={handleEmailChange}
                   />
-                  <Button variant="btn-subscribe" id="btn-subscribe">
-                  Subscribe
+                  <Button variant="btn-subscribe" id="btn-subscribe" onClick={handleSubscribe}>
+                    Subscribe
                   </Button>
                 </InputGroup>
               </div>
@@ -59,14 +77,13 @@ function Footer() {
           </div>
         </div>
         <div className="container">
-        <hr />
+          <hr />
           <div className="copyright">
             <strong><span>AD SCENE</span></strong><br />Made with React JS
           </div>
         </div>
       </footer>
       {/* End Footer */}
-
     </>
   );
 }
